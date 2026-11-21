@@ -1,0 +1,893 @@
+{
+  "run_id": "20261121-033324-50f9",
+  "profile": "family",
+  "mode": "record",
+  "model": "zai-org/GLM-5.3-Flash",
+  "message": "Hi, I'm Lena from Brightwave Freight Partners Ltd. We saw your profile and would like to offer you a remote \"package inspector\" position paying $35/hour. You will receive packages at home and reship them to our clients. Reply YES to start this week.\n",
+  "manipulation": [],
+  "pressure_tactics": [],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The sender is a person named Lena representing Brightwave Freight Partners Ltd.",
+      "quote": "I'm Lena from Brightwave Freight Partners Ltd",
+      "type": "identity",
+      "entities": [
+        "Lena",
+        "Brightwave Freight Partners Ltd"
+      ]
+    },
+    {
+      "id": "c2",
+      "text": "Brightwave Freight Partners Ltd is a real company that recruits for remote work.",
+      "quote": "Brightwave Freight Partners Ltd",
+      "type": "organisation",
+      "entities": [
+        "Brightwave Freight Partners Ltd"
+      ]
+    },
+    {
+      "id": "c3",
+      "text": "The company is offering a remote 'package inspector' position paying $35 per hour.",
+      "quote": "remote \"package inspector\" position paying $35/hour",
+      "type": "offer",
+      "entities": [
+        "package inspector"
+      ]
+    },
+    {
+      "id": "c4",
+      "text": "The job consists of receiving packages at home and reshipping them to the company's clients.",
+      "quote": "You will receive packages at home and reship them to our clients",
+      "type": "process",
+      "entities": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "Brightwave Freight Partners Ltd",
+      "kind": "organisation"
+    },
+    {
+      "name": "Lena",
+      "kind": "other"
+    },
+    {
+      "name": "package inspector",
+      "kind": "role"
+    }
+  ],
+  "asks": [
+    {
+      "action": "Reply YES to accept the job offer and start this week",
+      "quote": "Reply YES to start this week"
+    },
+    {
+      "action": "Receive packages at home and reship them to the company's clients",
+      "quote": "You will receive packages at home and reship them to our clients"
+    }
+  ],
+  "dropped_claims": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.indeed.com/cmp/Brightwave",
+      "title": "Brightwave Careers and Employment | Indeed.com",
+      "site": "indeed.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S2",
+      "url": "https://www.lenasearch.com",
+      "title": "Lena Search | Green Industry | Construction | Engineering | Recruitment Agency for Top Talent",
+      "site": "lenasearch.com",
+      "kind": "organisation's own site",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S3",
+      "url": "https://linkedin.com/in/lena-borisenko-7723827a",
+      "title": "Lena",
+      "site": "linkedin.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S4",
+      "url": "https://www.facebook.com/TransportTalent/posts/lena-is-the-head-of-marketing-and-here-is-why-she-loves-working-at-transport-tal/748108273991255",
+      "title": "Lena is the Head of Marketing, and here is why she loves working at ...",
+      "site": "facebook.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S5",
+      "url": "https://linkedin.com/in/lena-akatova-568b41155",
+      "title": "Lena",
+      "site": "linkedin.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S6",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16088057",
+      "title": "BRIGHTWAVE PARTNERS LTD overview - Companies House",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S7",
+      "url": "https://brightwavelogistics.co.za",
+      "title": "Transportation Service Provider - BrightWave Logistics",
+      "site": "brightwavelogistics.co.za",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S8",
+      "url": "https://brightwavepartners.com",
+      "title": "Brightwave Partners | Not only do our partners excel at all aspects of technology, we want to partner with you on your journey to digital excellence. When you work with us, you are not just a customer or a client, you are a partner.",
+      "site": "brightwavepartners.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S9",
+      "url": "https://www.brightwavepartners.org/about",
+      "title": "About Us - Brightwave Partners Investment Company",
+      "site": "brightwavepartners.org",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S10",
+      "url": "https://www.mapquest.com/us/maryland/brightwave-partners-llc-536885617",
+      "title": "Brightwave Partners, LLC, 5729 Whistling Winds Walk, Clarksville, MD 21029-1662, US - MapQuest",
+      "site": "mapquest.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S11",
+      "url": "https://www.lei-lookup.com/record/9845002DE4A1EFB6E043",
+      "title": "BRIGHTWAVE PARTNERS LTD - LEI Lookup",
+      "site": "lei-lookup.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S12",
+      "url": "https://leiscan.com/lei/9845002DE4A1EFB6E043",
+      "title": "BRIGHTWAVE PARTNERS LTD — LEI 9845002DE4A1EFB6E043 | LEIScan",
+      "site": "leiscan.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S13",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16088057/filing-history",
+      "title": "BRIGHTWAVE PARTNERS LTD - Companies House",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S14",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16088057/persons-with-significant-control",
+      "title": "BRIGHTWAVE PARTNERS LTD persons with significant control",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S15",
+      "url": "https://www.zippia.com/brightwave-careers-1551173/jobs",
+      "title": "BrightWave Jobs in November, 2026 (Hiring Now!) - Zippia",
+      "site": "zippia.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S16",
+      "url": "https://www.glassdoor.com/Overview/Working-at-BrightWave-EI_IE1066216.11,21.htm",
+      "title": "Working at BrightWave | Glassdoor",
+      "site": "glassdoor.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S17",
+      "url": "https://brightwavesoftware.com/career",
+      "title": "Careers | BrightWave Software | BrightWave Software",
+      "site": "brightwavesoftware.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S18",
+      "url": "https://consider.com/boards/co/brightwave",
+      "title": "Jobs at Brightwave",
+      "site": "consider.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S19",
+      "url": "https://www.indeed.com/q-package-inspector-remote-jobs.html",
+      "title": "Flexible Package Inspector Remote Jobs - Indeed",
+      "site": "indeed.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S20",
+      "url": "https://www.ziprecruiter.com/Jobs/Package-Inspector/-in-New-York-City,NY",
+      "title": "$42k-$160k Package Inspector Jobs in New York City, NY",
+      "site": "ziprecruiter.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S21",
+      "url": "https://fjordgate.com/careers.html",
+      "title": "Independent Package Inspector (Remote) - FjordGate",
+      "site": "fjordgate.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S22",
+      "url": "https://www.indeed.com/q-package-inspector-l-manhattan,-ny-jobs.html",
+      "title": "Now Hiring: 600 Package Inspector Jobs in Manhattan, NY | Indeed",
+      "site": "indeed.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S23",
+      "url": "https://www.ziprecruiter.com/Jobs/Work-From-Home-Package-Inspector",
+      "title": "$48k-$79k Work From Home Package Inspector Jobs (NOW HIRING)",
+      "site": "ziprecruiter.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S24",
+      "url": "https://www.indeed.com/q-shipping-package-inspector-jobs.html",
+      "title": "Shipping package inspector jobs - Indeed",
+      "site": "indeed.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S25",
+      "url": "https://www.zippia.com/packaging-inspector-jobs/what-does-a-packaging-inspector-do",
+      "title": "What Does A Packaging Inspector Do? Roles And Responsibilities",
+      "site": "zippia.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S26",
+      "url": "https://lambdaos.itch.io/packageinspector",
+      "title": "Package Inspector by LambdaOS, CompozerJun - itch.io",
+      "site": "itch.io",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S27",
+      "url": "https://www.ziprecruiter.com/hiring/how-to-hire/work-from-home-package-inspector",
+      "title": "Work From Home Package Inspector Hiring Guide - ZipRecruiter",
+      "site": "ziprecruiter.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S28",
+      "url": "https://www.indeed.com/q-package-inspector-l-texas-jobs.html",
+      "title": "Now Hiring: 400 Package Inspector Jobs in Texas - Indeed",
+      "site": "indeed.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S29",
+      "url": "https://kmyu.tv/news/local/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work",
+      "title": "FTC alerts public to new job scam posing as easy reshipping work",
+      "site": "kmyu.tv",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S30",
+      "url": "https://legalclarity.org/reshipping-scams-how-they-work-and-legal-risks",
+      "title": "Reshipping Scams: How They Work and Legal Risks - LegalClarity",
+      "site": "legalclarity.org",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S31",
+      "url": "https://www.facebook.com/wesh2news/posts/a-work-from-home-job-offer-turned-out-to-be-a-re-shipping-scam-tied-to-a-real-ce/1087826847092566",
+      "title": "A work-from-home job offer turned out to be a re-shipping scam tied to a real ...",
+      "site": "facebook.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S32",
+      "url": "https://trustdale.com/blog/the-new-reshipping-scam-targeting-everyday-consumers",
+      "title": "The New ‘Reshipping Scam’ Targeting Everyday Consumers - TrustDALE",
+      "site": "trustdale.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S33",
+      "url": "https://isthatascam.com/us/en/us-reshipping-job-scam",
+      "title": "A \"package handler\" job has you reship stolen merchandise from your home — isthatascam.com",
+      "site": "isthatascam.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S34",
+      "url": "https://www.linkedin.com/company/freight-partners-group",
+      "title": "Freight Partners Group - LinkedIn",
+      "site": "linkedin.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S35",
+      "url": "https://www.linkedin.com/in/lena-b-1a019015b",
+      "title": "Lena B. - New York City Metropolitan Area | Professional Profile",
+      "site": "linkedin.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S36",
+      "url": "https://www.linkedin.com/in/lena-lena-53b2b098",
+      "title": "Lena Lena - Lead Package/Freight Delivery Professional",
+      "site": "linkedin.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S37",
+      "url": "https://www.linkedin.com/in/lenalogistics",
+      "title": "Antwan W. - Owner-Lena Logistics",
+      "site": "linkedin.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S38",
+      "url": "https://www.linkedin.com/in/lena-w-35173294",
+      "title": "https://www.linkedin.com/in/lena-w-35173294",
+      "site": "linkedin.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S39",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09976844/more",
+      "title": "FREIGHT PARTNERS LIMITED more information - Companies House",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S40",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16641469",
+      "title": "BRIGHTWAVE GLOBAL LTD overview - Find and update company information - GOV.UK",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S41",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16477244",
+      "title": "BRIGHTWAVE TECHNOLOGIES LTD overview - Find and update company information - GOV.UK",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S42",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16830195",
+      "title": "BRIGHTWAVE ONLINE LTD overview - Find and update company information - GOV.UK",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    }
+  ],
+  "search_errors": [],
+  "assess_errors": [],
+  "state": "CAUTION",
+  "state_reason": "Some evidence or pressure tactics point to risk, but it is not conclusive.",
+  "verdicts": {
+    "c1": {
+      "verdict": "UNVERIFIED",
+      "why": "no page addressed this claim",
+      "sources": []
+    },
+    "c2": {
+      "verdict": "UNVERIFIED",
+      "why": "no page addressed this claim",
+      "sources": []
+    },
+    "c3": {
+      "verdict": "SUPPORTED",
+      "why": "two or more independent sites confirm it",
+      "sources": [
+        "indeed.com",
+        "ziprecruiter.com"
+      ]
+    },
+    "c4": {
+      "verdict": "CONTRADICTED_WEAK",
+      "why": "one non-official site states the opposite",
+      "sources": [
+        "facebook.com",
+        "kmyu.tv",
+        "legalclarity.org",
+        "trustdale.com"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "claim_id": "c3",
+      "source_id": "S19",
+      "stance": "supports",
+      "quote": "Remote $20 - $35 an hour",
+      "finding": "The quote shows that remote package inspector positions can pay up to $35 per hour, which matches the claim.",
+      "level": "stated",
+      "source_kind": "forum / user reports",
+      "site": "indeed.com",
+      "url": "https://www.indeed.com/q-package-inspector-remote-jobs.html",
+      "link": "https://www.indeed.com/q-package-inspector-remote-jobs.html#:~:text=Remote%20%2420%20-%20%2435%20an%20hour"
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "S20",
+      "stance": "supports",
+      "quote": "$20 - $35/hr ... Remote",
+      "finding": "The quote indicates that remote package inspector jobs offer hourly rates between $20 and $35, supporting the claim's pay rate.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "ziprecruiter.com",
+      "url": "https://www.ziprecruiter.com/Jobs/Package-Inspector/-in-New-York-City,NY",
+      "link": "https://www.ziprecruiter.com/Jobs/Package-Inspector/-in-New-York-City,NY#:~:text=%2420%20-%20%2435%2Fhr"
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S29",
+      "stance": "warns",
+      "quote": "The Federal Trade Commission warned of a new scam offering fake reshipping jobs to victims.",
+      "finding": "The quote shows the FTC has identified job offers for reshipping packages as fake scams, matching the duties described in the message.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "kmyu.tv",
+      "url": "https://kmyu.tv/news/local/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work",
+      "link": "https://kmyu.tv/news/local/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work#:~:text=The%20Federal%20Trade%20Commission%20warned,fake%20reshipping%20jobs%20to%20victims."
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S29",
+      "stance": "warns",
+      "quote": "An easy work-from-home job may sound great, but the FTC warned against job offers that claim all you need to do is receive shipments, repackage them, and send them on to a new address.",
+      "finding": "The quote shows the FTC warns that job offers whose only stated duty is receiving and reshipping shipments are scams, the same pattern as the claimed job.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "kmyu.tv",
+      "url": "https://kmyu.tv/news/local/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work",
+      "link": "https://kmyu.tv/news/local/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work#:~:text=An%20easy%20work-from-home%20job%20may,on%20to%20a%20new%20address."
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S30",
+      "stance": "warns",
+      "quote": "The FTC has warned consumers directly that \"if the offer says all you need to do is receive shipments, repackage them, and send them on to a new address, it's a reshipping scam.\"",
+      "finding": "The quote shows the FTC labels offers to receive, repackage, and resend packages as reshipping scams, the same pattern as the claimed job.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "legalclarity.org",
+      "url": "https://legalclarity.org/reshipping-scams-how-they-work-and-legal-risks",
+      "link": "https://legalclarity.org/reshipping-scams-how-they-work-and-legal-risks#:~:text=The%20FTC%20has%20warned%20consumers,address%2C%20it%27s%20a%20reshipping%20scam."
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S30",
+      "stance": "warns",
+      "quote": "Reshipping scams turn job seekers into middlemen for criminal networks by disguising stolen-goods operations as remote logistics work.",
+      "finding": "The quote shows the remote logistics job of receiving and reshipping goods is a disguise for a criminal reshipping scheme.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "legalclarity.org",
+      "url": "https://legalclarity.org/reshipping-scams-how-they-work-and-legal-risks",
+      "link": "https://legalclarity.org/reshipping-scams-how-they-work-and-legal-risks#:~:text=Reshipping%20scams%20turn%20job%20seekers,operations%20as%20remote%20logistics%20work."
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S31",
+      "stance": "warns",
+      "quote": "The job is reshipping packages. The FTC says that's never a real job.",
+      "finding": "The quote shows the FTC says a job consisting of reshipping packages is never a real job, flagging the offered job as a scam.",
+      "level": "stated",
+      "source_kind": "forum / user reports",
+      "site": "facebook.com",
+      "url": "https://www.facebook.com/wesh2news/posts/a-work-from-home-job-offer-turned-out-to-be-a-re-shipping-scam-tied-to-a-real-ce/1087826847092566",
+      "link": "https://www.facebook.com/wesh2news/posts/a-work-from-home-job-offer-turned-out-to-be-a-re-shipping-scam-tied-to-a-real-ce/1087826847092566#:~:text=The%20job%20is%20reshipping%20packages.,that%27s%20never%20a%20real%20job."
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S32",
+      "stance": "contradicts",
+      "quote": "The FTC has repeatedly warned consumers that real companies do not ask people to forward goods from their homes and do not operate through anonymous messaging apps.",
+      "finding": "The quote shows real companies do not ask people to forward goods from their homes, contradicting the claim that this company's job involves reshipping packages.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "trustdale.com",
+      "url": "https://trustdale.com/blog/the-new-reshipping-scam-targeting-everyday-consumers",
+      "link": "https://trustdale.com/blog/the-new-reshipping-scam-targeting-everyday-consumers#:~:text=The%20FTC%20has%20repeatedly%20warned,operate%20through%20anonymous%20messaging%20apps."
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S32",
+      "stance": "warns",
+      "quote": "Unwitting consumers become the middlemen in a process designed to hide the origin of goods purchased with stolen credit cards or compromised accounts.",
+      "finding": "The quote shows people recruited to receive and forward packages serve as middlemen hiding stolen goods, identifying the claimed job as part of a fraud scheme.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "trustdale.com",
+      "url": "https://trustdale.com/blog/the-new-reshipping-scam-targeting-everyday-consumers",
+      "link": "https://trustdale.com/blog/the-new-reshipping-scam-targeting-everyday-consumers#:~:text=Unwitting%20consumers%20become%20the%20middlemen,credit%20cards%20or%20compromised%20accounts."
+    }
+  ],
+  "rejected": [],
+  "summary": "The advertised pay of $20–$35 per hour for remote package work does appear in real job listings, so the rate itself is plausible. However, the job duties described — receiving, repackaging, and forwarding packages — match a pattern the FTC has repeatedly warned about: 'reshipping scams,' where people are unknowingly used as middlemen to move goods bought with stolen payment information. According to the FTC, real companies do not ask people to forward goods from their homes, and a job that consists only of reshipping packages is never a real job. Until you can confirm this offer through an official channel, don't send money or share any codes or personal details.",
+  "trace": [
+    {
+      "t": 0.0,
+      "step": "guard",
+      "injection": 0,
+      "pressure": 0
+    },
+    {
+      "t": 7.96,
+      "step": "intake",
+      "claims": 4,
+      "entities": [
+        "Brightwave Freight Partners Ltd",
+        "Lena",
+        "package inspector"
+      ],
+      "dropped": 0
+    },
+    {
+      "t": 11.96,
+      "step": "plan",
+      "queries": [
+        "Lena Brightwave Freight Partners recruiter",
+        "Brightwave Freight Partners Ltd official site",
+        "Brightwave Freight Partners Ltd company registration",
+        "Brightwave Freight Partners Ltd careers hiring process",
+        "package inspector remote job $35 hour",
+        "package inspector job official duties requirements",
+        "reshipping packages job FTC warning"
+      ]
+    },
+    {
+      "t": 17.75,
+      "step": "search",
+      "round": 1,
+      "query": "Lena Brightwave Freight Partners recruiter",
+      "claim": "c1",
+      "results": 5,
+      "kept": 5
+    },
+    {
+      "t": 20.97,
+      "step": "search",
+      "round": 1,
+      "query": "Brightwave Freight Partners Ltd official site",
+      "claim": "c1",
+      "results": 5,
+      "kept": 0
+    },
+    {
+      "t": 23.61,
+      "step": "search",
+      "round": 1,
+      "query": "Brightwave Freight Partners Ltd company registration",
+      "claim": "c2",
+      "results": 5,
+      "kept": 4
+    },
+    {
+      "t": 26.13,
+      "step": "search",
+      "round": 1,
+      "query": "Brightwave Freight Partners Ltd careers hiring process",
+      "claim": "c2",
+      "results": 5,
+      "kept": 1
+    },
+    {
+      "t": 30.62,
+      "step": "search",
+      "round": 1,
+      "query": "package inspector remote job $35 hour",
+      "claim": "c3",
+      "results": 5,
+      "kept": 5
+    },
+    {
+      "t": 33.77,
+      "step": "search",
+      "round": 1,
+      "query": "package inspector job official duties requirements",
+      "claim": "c3",
+      "results": 5,
+      "kept": 0
+    },
+    {
+      "t": 38.21,
+      "step": "search",
+      "round": 1,
+      "query": "reshipping packages job FTC warning",
+      "claim": "c4",
+      "results": 5,
+      "kept": 5
+    },
+    {
+      "t": 53.86,
+      "step": "assess",
+      "claim": "c1",
+      "pages": 4,
+      "proposed": 0,
+      "verified": 0
+    },
+    {
+      "t": 78.83,
+      "step": "assess",
+      "claim": "c2",
+      "pages": 4,
+      "proposed": 0,
+      "verified": 0
+    },
+    {
+      "t": 232.4,
+      "step": "assess",
+      "claim": "c3",
+      "pages": 4,
+      "proposed": 2,
+      "verified": 2
+    },
+    {
+      "t": 281.49,
+      "step": "assess",
+      "claim": "c4",
+      "pages": 4,
+      "proposed": 7,
+      "verified": 7
+    },
+    {
+      "t": 284.98,
+      "step": "refine",
+      "reason": "2 claim(s) without verified evidence",
+      "queries": [
+        "Lena Brightwave Freight Partners LinkedIn profile",
+        "Brightwave Freight Partners Ltd Companies House"
+      ]
+    },
+    {
+      "t": 287.33,
+      "step": "search",
+      "round": 2,
+      "query": "Lena Brightwave Freight Partners LinkedIn profile",
+      "claim": "c1",
+      "results": 5,
+      "kept": 0
+    },
+    {
+      "t": 289.43,
+      "step": "search",
+      "round": 2,
+      "query": "Brightwave Freight Partners Ltd Companies House",
+      "claim": "c2",
+      "results": 5,
+      "kept": 0
+    },
+    {
+      "t": 289.43,
+      "step": "stop",
+      "reason": "refined once; budget or rounds exhausted"
+    },
+    {
+      "t": 304.44,
+      "step": "done",
+      "state": "CAUTION"
+    }
+  ],
+  "usage": [
+    {
+      "step": "intake",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 452,
+      "completion_tokens": 1301,
+      "seconds": 7.94
+    },
+    {
+      "step": "plan",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 364,
+      "completion_tokens": 635,
+      "seconds": 4.01
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Lena Brightwave Freight Partners recruiter",
+      "results": 5,
+      "seconds": 5.76
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Brightwave Freight Partners Ltd official site",
+      "results": 5,
+      "seconds": 3.18
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Brightwave Freight Partners Ltd company registration",
+      "results": 5,
+      "seconds": 2.64
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Brightwave Freight Partners Ltd careers hiring process",
+      "results": 5,
+      "seconds": 2.51
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "package inspector remote job $35 hour",
+      "results": 5,
+      "seconds": 4.48
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "package inspector job official duties requirements",
+      "results": 5,
+      "seconds": 3.14
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "reshipping packages job FTC warning",
+      "results": 5,
+      "seconds": 4.42
+    },
+    {
+      "step": "assess:c1",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 1484,
+      "completion_tokens": 630,
+      "seconds": 15.64
+    },
+    {
+      "step": "assess:c2",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 718,
+      "completion_tokens": 1939,
+      "seconds": 24.97
+    },
+    {
+      "step": "assess:c3",
+      "service": "token_factory",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "prompt_tokens": 772,
+      "completion_tokens": 129,
+      "seconds": 2.39
+    },
+    {
+      "step": "assess:c4",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 2579,
+      "completion_tokens": 8814,
+      "seconds": 49.08
+    },
+    {
+      "step": "refine",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 279,
+      "completion_tokens": 527,
+      "seconds": 3.48
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Lena Brightwave Freight Partners LinkedIn profile",
+      "results": 5,
+      "seconds": 2.34
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Brightwave Freight Partners Ltd Companies House",
+      "results": 5,
+      "seconds": 2.09
+    },
+    {
+      "step": "explain",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 936,
+      "completion_tokens": 506,
+      "seconds": 15.0
+    }
+  ],
+  "routing": [
+    "Alert for son@example.com written to C:\\Users\\Huawei\\source\\repos\\quill-check\\outbox\\20261121-033324-50f9-family.eml (set SMTP_* to send)."
+  ]
+}

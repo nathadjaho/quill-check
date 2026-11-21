@@ -1,0 +1,819 @@
+{
+  "run_id": "20261121-034836-1854",
+  "profile": "family",
+  "mode": "record",
+  "model": "zai-org/GLM-5.3-Flash",
+  "message": "Hi, I'm Lena from Brightwave Freight Partners Ltd. We saw your profile and would like to offer you a remote \"package inspector\" position paying $35/hour. You will receive packages at home and reship them to our clients. Reply YES to start this week.\n",
+  "manipulation": [],
+  "pressure_tactics": [],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The sender is a person named Lena representing Brightwave Freight Partners Ltd.",
+      "quote": "I'm Lena from Brightwave Freight Partners Ltd",
+      "type": "identity",
+      "entities": [
+        "Brightwave Freight Partners Ltd"
+      ]
+    },
+    {
+      "id": "c2",
+      "text": "Brightwave Freight Partners Ltd is a real freight/logistics company.",
+      "quote": "Brightwave Freight Partners Ltd",
+      "type": "organisation",
+      "entities": [
+        "Brightwave Freight Partners Ltd"
+      ]
+    },
+    {
+      "id": "c3",
+      "text": "The company is offering a remote 'package inspector' position paying $35 per hour.",
+      "quote": "remote \"package inspector\" position paying $35/hour",
+      "type": "offer",
+      "entities": [
+        "package inspector"
+      ]
+    },
+    {
+      "id": "c4",
+      "text": "The job consists of receiving packages at home and reshipping them to the company's clients.",
+      "quote": "You will receive packages at home and reship them to our clients",
+      "type": "process",
+      "entities": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "Brightwave Freight Partners Ltd",
+      "kind": "organisation"
+    },
+    {
+      "name": "package inspector",
+      "kind": "role"
+    }
+  ],
+  "asks": [
+    {
+      "action": "Reply 'YES' to the message to accept the job offer and start this week.",
+      "quote": "Reply YES to start this week"
+    }
+  ],
+  "dropped_claims": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16088057",
+      "title": "BRIGHTWAVE PARTNERS LTD overview - Find and update company information - GOV.UK",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S2",
+      "url": "https://brightwavelogistics.co.za",
+      "title": "Transportation Service Provider - BrightWave Logistics",
+      "site": "brightwavelogistics.co.za",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S3",
+      "url": "https://brightwavepartners.com",
+      "title": "Brightwave Partners | Not only do our partners excel at all aspects of technology, we want to partner with you on your journey to digital excellence. When you work with us, you are not just a customer or a client, you are a partner.",
+      "site": "brightwavepartners.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S4",
+      "url": "https://www.mapquest.com/us/maryland/brightwave-partners-llc-536885617",
+      "title": "Brightwave Partners, LLC, 5729 Whistling Winds Walk, Clarksville, MD 21029-1662, US - MapQuest",
+      "site": "mapquest.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S5",
+      "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&original_query_param=NAME&query_string=4517300&original_query_string=BRIGHT+WAVE+TRANSPORTATION+LLC",
+      "title": "SAFER Web - Company Snapshot BRIGHT WAVE TRANSPORTATION LLC",
+      "site": "dot.gov",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S6",
+      "url": "https://www.lenasearch.com",
+      "title": "Lena Search | Green Industry | Construction | Engineering | Recruitment Agency for Top Talent",
+      "site": "lenasearch.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S7",
+      "url": "https://linkedin.com/in/lena-borisenko-7723827a",
+      "title": "Lena",
+      "site": "linkedin.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S8",
+      "url": "https://linkedin.com/in/elenayakimkina",
+      "title": "Lena",
+      "site": "linkedin.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S9",
+      "url": "https://www.linkedin.com/in/lenaroufaeal",
+      "title": "Lena Roufaeal - Technical Talent and People Partner - LinkedIn",
+      "site": "linkedin.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S10",
+      "url": "https://www.lei-lookup.com/record/9845002DE4A1EFB6E043",
+      "title": "BRIGHTWAVE PARTNERS LTD - LEI Lookup",
+      "site": "lei-lookup.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S11",
+      "url": "https://leiscan.com/lei/9845002DE4A1EFB6E043",
+      "title": "BRIGHTWAVE PARTNERS LTD — LEI 9845002DE4A1EFB6E043 | LEIScan",
+      "site": "leiscan.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S12",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16088057/filing-history",
+      "title": "BRIGHTWAVE PARTNERS LTD - Companies House",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S13",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16088057/persons-with-significant-control",
+      "title": "BRIGHTWAVE PARTNERS LTD persons with significant control",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S14",
+      "url": "https://www.indeed.com/cmp/Brightwave/reviews?fcountry=ALL",
+      "title": "Working at Brightwave: Employee Reviews | Indeed.com",
+      "site": "indeed.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S15",
+      "url": "https://www.carriersource.io/brokerages/freight-partners-group-llc",
+      "title": "Freight Partners Group LLC | CarrierSource",
+      "site": "carriersource.io",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S16",
+      "url": "https://www.bbb.org/us/ca/union-city/profile/transportation/brightway-logistics-1116-975708/customer-reviews",
+      "title": "Brightway Logistics | BBB Reviews | Better Business Bureau",
+      "site": "bbb.org",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S17",
+      "url": "https://www.trustpilot.com/review/brightwaylogistics.us?page=3",
+      "title": "Brightway logistics LLC Reviews | Read Customer Service ...",
+      "site": "trustpilot.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S18",
+      "url": "https://www.klfy.com/community/eye-on-scams/eye-on-scams-remote-package-inspector-job-scam",
+      "title": "Eye on Scams: Remote, 'package inspector' job scam",
+      "site": "klfy.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S19",
+      "url": "https://news.yahoo.com/eye-scams-remote-package-inspector-230615246.html",
+      "title": "Eye on Scams: Remote, ‘package inspector’ job scam",
+      "site": "yahoo.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S20",
+      "url": "https://www.indeed.com/q-shipping-package-inspector-jobs.html",
+      "title": "Shipping package inspector jobs",
+      "site": "indeed.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S21",
+      "url": "https://fjordgate.com/careers.html",
+      "title": "Careers | FjordGate",
+      "site": "fjordgate.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S22",
+      "url": "https://www.zippia.com/salaries/packaging-inspector",
+      "title": "Packaging Inspector Salary Data by State and Experience",
+      "site": "zippia.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S23",
+      "url": "https://www.bbb.org/scamtracker/lookupscam/1069453",
+      "title": "Scams Details",
+      "site": "bbb.org",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S24",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2025/12/can-you-unbox-signs-reshipping-scam",
+      "title": "Can you unbox the signs of a reshipping scam? | Consumer Advice",
+      "site": "ftc.gov",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S25",
+      "url": "https://www.bbb.org/article/scams/18070-scam-alert-how-a-work-from-home-reshipping-scam-is-fooling-job-seekers",
+      "title": "BBB Scam Alert: How a work from home reshipping scam is fooling job seekers",
+      "site": "bbb.org",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S26",
+      "url": "https://www.omniwatch.com/blog/holiday-job-and-reshipping-scams",
+      "title": "Reshipping Scams: How Fake Work-From-Home Jobs Work",
+      "site": "omniwatch.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S27",
+      "url": "https://marionseniors.org/ftc-warning-beware-of-reshipping-job-scams-%F0%9F%93%A6",
+      "title": "FTC Warning: Beware of Reshipping Job Scams",
+      "site": "marionseniors.org",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S28",
+      "url": "https://kjzz.com/news/local/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work",
+      "title": "FTC alerts public to new job scam posing as easy reshipping work",
+      "site": "kjzz.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S29",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/reshipping-scams",
+      "title": "How to Spot a Reshipping Scam",
+      "site": "bitdefender.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S30",
+      "url": "https://kjzz.com/news/eye-on-your-money/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work?photo=3",
+      "title": "FTC alerts public to new job scam posing as easy reshipping work",
+      "site": "kjzz.com",
+      "kind": "web",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S31",
+      "url": "https://www.linkedin.com/company/freight-partners-group",
+      "title": "Freight Partners Group - LinkedIn",
+      "site": "linkedin.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S32",
+      "url": "https://www.linkedin.com/in/lena-b-1a019015b",
+      "title": "Lena B. - New York City Metropolitan Area | Professional Profile",
+      "site": "linkedin.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S33",
+      "url": "https://www.linkedin.com/in/lena-lena-53b2b098",
+      "title": "Lena Lena - Lead Package/Freight Delivery Professional",
+      "site": "linkedin.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S34",
+      "url": "https://www.linkedin.com/in/lenalogistics",
+      "title": "Antwan W. - Owner-Lena Logistics",
+      "site": "linkedin.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S35",
+      "url": "https://www.linkedin.com/in/lena-w-35173294",
+      "title": "https://www.linkedin.com/in/lena-w-35173294",
+      "site": "linkedin.com",
+      "kind": "forum / user reports",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S36",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/09976844/more",
+      "title": "FREIGHT PARTNERS LIMITED more information - Companies House",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S37",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16641469",
+      "title": "BRIGHTWAVE GLOBAL LTD overview - Find and update company information - GOV.UK",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S38",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16477244",
+      "title": "BRIGHTWAVE TECHNOLOGIES LTD overview - Find and update company information - GOV.UK",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    },
+    {
+      "id": "S39",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/16830195",
+      "title": "BRIGHTWAVE ONLINE LTD overview - Find and update company information - GOV.UK",
+      "site": "service.gov.uk",
+      "kind": "government / consumer protection",
+      "published": null,
+      "injection": []
+    }
+  ],
+  "search_errors": [],
+  "assess_errors": [],
+  "state": "RED_FLAGS",
+  "state_reason": "At least one claim in the message is contradicted or reported as a scam by sources.",
+  "verdicts": {
+    "c1": {
+      "verdict": "UNVERIFIED",
+      "why": "no page addressed this claim",
+      "sources": []
+    },
+    "c2": {
+      "verdict": "UNVERIFIED",
+      "why": "no page addressed this claim",
+      "sources": []
+    },
+    "c3": {
+      "verdict": "REPORTED_AS_SCAM",
+      "why": "an official source, or two independent non-forum sites, report it as a scam",
+      "sources": [
+        "klfy.com",
+        "yahoo.com"
+      ]
+    },
+    "c4": {
+      "verdict": "REPORTED_AS_SCAM",
+      "why": "an official source, or two independent non-forum sites, report it as a scam",
+      "sources": [
+        "bitdefender.com",
+        "kjzz.com",
+        "marionseniors.org"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "claim_id": "c3",
+      "source_id": "S18",
+      "stance": "warns",
+      "quote": "A work-from-home job opportunity is being sent to people across multiple states offering a ‘package inspector’ position.",
+      "finding": "The page indicates the offer is a scam targeting people across multiple states.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "klfy.com",
+      "url": "https://www.klfy.com/community/eye-on-scams/eye-on-scams-remote-package-inspector-job-scam",
+      "link": "https://www.klfy.com/community/eye-on-scams/eye-on-scams-remote-package-inspector-job-scam#:~:text=A%20work-from-home%20job%20opportunity%20is,offering%20a%20%E2%80%98package%20inspector%E2%80%99%20position."
+    },
+    {
+      "claim_id": "c3",
+      "source_id": "S19",
+      "stance": "warns",
+      "quote": "A work-from-home job opportunity is being sent to people across multiple states offering a 'package inspector' position.",
+      "finding": "The page identifies the offer as part of a scam targeting individuals in multiple states.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "yahoo.com",
+      "url": "https://news.yahoo.com/eye-scams-remote-package-inspector-230615246.html",
+      "link": "https://news.yahoo.com/eye-scams-remote-package-inspector-230615246.html#:~:text=A%20work-from-home%20job%20opportunity%20is,offering%20a%20%27package%20inspector%27%20position."
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S28",
+      "stance": "warns",
+      "quote": "The Federal Trade Commission warned of a new scam offering fake reshipping jobs to victims.",
+      "finding": "The FTC identifies job offers to receive and reship packages as a fake reshipping job scam.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "kjzz.com",
+      "url": "https://kjzz.com/news/local/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work",
+      "link": "https://kjzz.com/news/local/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work#:~:text=The%20Federal%20Trade%20Commission%20warned,fake%20reshipping%20jobs%20to%20victims."
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S27",
+      "stance": "warns",
+      "quote": "In a reshipping scam, criminals may claim to be affiliated with well-known companies such as Amazon or FedEx.",
+      "finding": "The page describes reshipping job offers as scams run by criminals posing as legitimate companies.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "marionseniors.org",
+      "url": "https://marionseniors.org/ftc-warning-beware-of-reshipping-job-scams-%F0%9F%93%A6",
+      "link": "https://marionseniors.org/ftc-warning-beware-of-reshipping-job-scams-%F0%9F%93%A6#:~:text=In%20a%20reshipping%20scam%2C%20criminals,such%20as%20Amazon%20or%20FedEx."
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S29",
+      "stance": "warns",
+      "quote": "The description sounds simple: you just receive packages, inspect them, re-box them, and send them to another address.",
+      "finding": "The page presents this exact package-receiving job description as the setup of a reshipping scam.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "bitdefender.com",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/reshipping-scams",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/reshipping-scams#:~:text=The%20description%20sounds%20simple%3A%20you,send%20them%20to%20another%20address."
+    },
+    {
+      "claim_id": "c4",
+      "source_id": "S30",
+      "stance": "warns",
+      "quote": "An easy work-from-home job may sound great, but the FTC warned against job offers that claim all you need to do is receive shipments, repackage",
+      "finding": "The FTC warns that job offers claiming you only need to receive and repackage shipments are scams.",
+      "level": "stated",
+      "source_kind": "web",
+      "site": "kjzz.com",
+      "url": "https://kjzz.com/news/eye-on-your-money/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work?photo=3",
+      "link": "https://kjzz.com/news/eye-on-your-money/ftc-alerts-public-to-new-job-scam-posing-as-easy-reshipping-work?photo=3#:~:text=An%20easy%20work-from-home%20job%20may,do%20is%20receive%20shipments%2C%20repackage"
+    }
+  ],
+  "rejected": [],
+  "summary": "This message is a work-from-home job offer for a 'package inspector' position, and multiple sources — including the Federal Trade Commission — identify this exact type of offer as a scam that has been sent to people across multiple states. In these 'reshipping' scams, criminals pose as legitimate companies and claim the job simply involves receiving packages, inspecting them, re-boxing them, and sending them to another address. Until you can confirm things through an official channel, it's safest not to pay anything or share any codes or personal details.",
+  "trace": [
+    {
+      "t": 0.0,
+      "step": "guard",
+      "injection": 0,
+      "pressure": 0
+    },
+    {
+      "t": 10.55,
+      "step": "intake",
+      "claims": 4,
+      "entities": [
+        "Brightwave Freight Partners Ltd",
+        "package inspector"
+      ],
+      "dropped": 0
+    },
+    {
+      "t": 23.37,
+      "step": "plan",
+      "queries": [
+        "Brightwave Freight Partners Ltd official website",
+        "Lena recruiter Brightwave Freight Partners",
+        "Brightwave Freight Partners Ltd company registration",
+        "Brightwave Freight Partners Ltd reviews complaints",
+        "package inspector job $35 hour legitimate",
+        "FTC reshipping scam package inspector",
+        "receiving packages reshipping job FTC warning"
+      ]
+    },
+    {
+      "t": 29.26,
+      "step": "search",
+      "round": 1,
+      "query": "Brightwave Freight Partners Ltd official website",
+      "claim": "c1",
+      "results": 5,
+      "kept": 5
+    },
+    {
+      "t": 31.83,
+      "step": "search",
+      "round": 1,
+      "query": "Lena recruiter Brightwave Freight Partners",
+      "claim": "c1",
+      "results": 5,
+      "kept": 0
+    },
+    {
+      "t": 32.19,
+      "step": "search",
+      "round": 1,
+      "query": "Brightwave Freight Partners Ltd company registration",
+      "claim": "c2",
+      "results": 5,
+      "kept": 4
+    },
+    {
+      "t": 35.59,
+      "step": "search",
+      "round": 1,
+      "query": "Brightwave Freight Partners Ltd reviews complaints",
+      "claim": "c2",
+      "results": 5,
+      "kept": 1
+    },
+    {
+      "t": 38.65,
+      "step": "search",
+      "round": 1,
+      "query": "package inspector job $35 hour legitimate",
+      "claim": "c3",
+      "results": 5,
+      "kept": 5
+    },
+    {
+      "t": 42.77,
+      "step": "search",
+      "round": 1,
+      "query": "FTC reshipping scam package inspector",
+      "claim": "c3",
+      "results": 5,
+      "kept": 0
+    },
+    {
+      "t": 45.54,
+      "step": "search",
+      "round": 1,
+      "query": "receiving packages reshipping job FTC warning",
+      "claim": "c4",
+      "results": 5,
+      "kept": 5
+    },
+    {
+      "t": 90.01,
+      "step": "assess",
+      "claim": "c1",
+      "pages": 4,
+      "proposed": 0,
+      "verified": 0
+    },
+    {
+      "t": 94.12,
+      "step": "assess",
+      "claim": "c2",
+      "pages": 4,
+      "proposed": 0,
+      "verified": 0
+    },
+    {
+      "t": 184.54,
+      "step": "assess",
+      "claim": "c3",
+      "pages": 4,
+      "proposed": 2,
+      "verified": 2
+    },
+    {
+      "t": 192.35,
+      "step": "assess",
+      "claim": "c4",
+      "pages": 4,
+      "proposed": 4,
+      "verified": 4
+    },
+    {
+      "t": 195.43,
+      "step": "refine",
+      "reason": "2 claim(s) without verified evidence",
+      "queries": [
+        "\"Lena\" \"Brightwave Freight Partners\" LinkedIn profile",
+        "Brightwave Freight Partners Ltd Companies House"
+      ]
+    },
+    {
+      "t": 195.76,
+      "step": "search",
+      "round": 2,
+      "query": "\"Lena\" \"Brightwave Freight Partners\" LinkedIn profile",
+      "claim": "c1",
+      "results": 5,
+      "kept": 0
+    },
+    {
+      "t": 196.06,
+      "step": "search",
+      "round": 2,
+      "query": "Brightwave Freight Partners Ltd Companies House",
+      "claim": "c2",
+      "results": 5,
+      "kept": 0
+    },
+    {
+      "t": 196.06,
+      "step": "stop",
+      "reason": "refined once; budget or rounds exhausted"
+    },
+    {
+      "t": 198.99,
+      "step": "done",
+      "state": "RED_FLAGS"
+    }
+  ],
+  "usage": [
+    {
+      "step": "intake",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 452,
+      "completion_tokens": 1500,
+      "seconds": 10.54
+    },
+    {
+      "step": "plan",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 358,
+      "completion_tokens": 1297,
+      "seconds": 12.81
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Brightwave Freight Partners Ltd official website",
+      "results": 5,
+      "seconds": 5.88
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Lena recruiter Brightwave Freight Partners",
+      "results": 5,
+      "seconds": 2.56
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Brightwave Freight Partners Ltd company registration",
+      "results": 5,
+      "seconds": 0.36
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Brightwave Freight Partners Ltd reviews complaints",
+      "results": 5,
+      "seconds": 3.39
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "package inspector job $35 hour legitimate",
+      "results": 5,
+      "seconds": 3.04
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "FTC reshipping scam package inspector",
+      "results": 5,
+      "seconds": 4.11
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "receiving packages reshipping job FTC warning",
+      "results": 5,
+      "seconds": 2.75
+    },
+    {
+      "step": "assess:c1",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 1488,
+      "completion_tokens": 6419,
+      "seconds": 44.47
+    },
+    {
+      "step": "assess:c2",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 840,
+      "completion_tokens": 550,
+      "seconds": 4.1
+    },
+    {
+      "step": "assess:c3",
+      "service": "token_factory",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "prompt_tokens": 1425,
+      "completion_tokens": 133,
+      "seconds": 1.54
+    },
+    {
+      "step": "assess:c4",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 1591,
+      "completion_tokens": 1605,
+      "seconds": 7.77
+    },
+    {
+      "step": "refine",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 280,
+      "completion_tokens": 483,
+      "seconds": 3.07
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "\"Lena\" \"Brightwave Freight Partners\" LinkedIn profile",
+      "results": 5,
+      "seconds": 0.27
+    },
+    {
+      "step": "search",
+      "service": "tavily",
+      "query": "Brightwave Freight Partners Ltd Companies House",
+      "results": 5,
+      "seconds": 0.28
+    },
+    {
+      "step": "explain",
+      "service": "token_factory",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 630,
+      "completion_tokens": 370,
+      "seconds": 2.91
+    }
+  ],
+  "routing": [
+    "Alert for son@example.com written to C:\\Users\\Huawei\\source\\repos\\quill-check\\outbox\\20261121-034836-1854-family.eml (set SMTP_* to send)."
+  ]
+}
