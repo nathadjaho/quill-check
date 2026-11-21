@@ -4,7 +4,7 @@
 
 **One-line pitch:** Paste a suspicious message (a "Social Security officer", an unpaid toll, a too-good job offer). Quill breaks it into checkable claims, researches each one live with Tavily, verifies every quote in code, and tells the person who can act — an older parent's son or daughter, or a company's security team — with links that open the source at the exact sentence.
 
-- **Demo video (2–3 min):** <link>
+- **Demo video (2–3 min):** https://youtu.be/O-yZeuDqzYo
 - **Team:** Nathan Octave ([@nathadjaho](https://github.com/nathadjaho)) — solo
 
 ## The problem
